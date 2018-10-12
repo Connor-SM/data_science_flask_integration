@@ -18,3 +18,12 @@ table.dataframe, .dataframe th, .dataframe td {
   margin: 50px auto;
   width: 100%;
 }
+
+#world_map {
+  margin: 50px auto;
+  width: 100%;
+}
+
+embed {
+  height: 80vh;
+}

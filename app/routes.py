@@ -3,10 +3,12 @@ from flask import render_template
 from app.tables import show_table
 from app.parse import getData
 from app.graphs import plotPoints
+from app.maps import world_map
 
 @app.route('/')
 @app.route('/index')
 def index():
+    world_map()
     return render_template('index.html')
 
 @app.route('/graphs')
